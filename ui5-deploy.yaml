@@ -16,6 +16,9 @@ builder:
         target:
           destination: eGads
           url: http://egads.com.my:44300
+        credentials:
+          username: env:fazli
+          password: env:Support@02  
         app:
           name: ZGITHUB
           package: $tmp

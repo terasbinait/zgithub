@@ -60,20 +60,20 @@
 			</Page>
 		</detailPages>
 		<masterPages>
-			<Page
-				id="master"
+	<!--		<Page
+			id="master"
 				title="Master 1"
 				backgroundDesign= "List">
 				<List id="lst01" >
 					<StandardListItem id="sli01" title="To Master2" type="Navigation" press=".onPressGoToMaster" />
 				</List>
-			</Page>
+			</Page>		-->
 			<Page
 				id="master2" 
 				title="Master 2"
-				backgroundDesign= "List"
-				showNavButton="true"
-				navButtonPress=".onPressMasterBack">
+				backgroundDesign= "List">
+		<!--		showNavButton="true"		
+				navButtonPress=".onPressMasterBack">		-->
 				<List id="lst02" itemPress=".onListItemPress">
 					<StandardListItem id="sli02" title="To Detail 1" type="Active" custom:to="detail" />
 					<StandardListItem id="sli03" title="To Detail 2" type="Active" custom:to="detailDetail" />
